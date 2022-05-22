@@ -1,0 +1,42 @@
+.form {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+  
+  }
+  
+  .form form {
+    display: grid;
+    gap: 1rem;
+    width: 50%;
+  }
+  
+  .form form input,
+  .form form textarea,
+  .form form select {
+    padding: 15px 10px;
+    font-size: 1rem;
+    outline: none;
+    background-color: transparent;
+    border:1px solid #cccccc;
+    color: #fff
+  }
+  
+  .form form input::placeholder,
+  .form form textarea::placeholder {
+    color: #cacaca;
+  }
+  .submit-btn-box {
+    text-align: center;
+  }
+  
+  .submit-btn-box .submit-form-btn {
+    background-color: #cacaca;
+    border-radius: 16px;
+    border: none;
+    width: 220px;
+    cursor: pointer;
+  }
